@@ -18,7 +18,7 @@ const Accueil = () => {
             <div className="container mx-auto pt-20">
                 <div className="flex justify-between items-center">
                     <h1 className="font-bold text-2xl" style={{ color: '#161E2E' }}>Nos Services Speciaux</h1>
-                    <p className="text-red-600 font-medium">Tous <span className="hidden md:inline-block">les services</span></p>
+                    <p className="text-red-600 px-8 md:px-0 font-medium">Tous <span className="hidden md:inline-block">les services</span></p>
                 </div>
             </div>
             <Product01 />
