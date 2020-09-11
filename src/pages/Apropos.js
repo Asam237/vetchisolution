@@ -10,7 +10,7 @@ const Apropos = props => {
     }, [])
 
     return (
-        <p className="container mx-auto pt-16">Propos Here !</p>
+        <p className="container mx-auto pt-16">Propos ICI !</p>
     )
 }
 

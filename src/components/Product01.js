@@ -1,16 +1,11 @@
 import React from 'react';
-import Banner from "../assets/pictures/pic.svg";
 import One from "../assets/pictures/1.jpg";
 import Two from "../assets/pictures/2.jpg";
 import Three from "../assets/pictures/3.jpg";
 
-const Product = () => {
+const Product01 = () => {
     return (
         <section className="container mx-auto pt-16 px-8 sm:px-2 md:px-0">
-            <div className="flex justify-between items-center">
-                <h1 className="font-bold text-2xl" style={{ color: '#161E2E' }}>Nos Services Speciaux</h1>
-                <p className="text-red-600 font-medium">Tous <span className="hidden md:inline-block">les services</span></p>
-            </div>
             <div className="pt-3 grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
                 <div data-aos="fade-up" className="bg-white hover:bg-gray-100 shadow-xl p-4 rounded-lg">
                     <div className="mx-auto flex flex-col justify-start">
@@ -44,4 +39,4 @@ const Product = () => {
     )
 }
 
-export default Product;
+export default Product01;
