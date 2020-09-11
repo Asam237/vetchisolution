@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import Accueil from './pages/accueil';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Service from './pages/Service';
-import Apropos from './pages/Apropos';
+import Equipe from './pages/Equipe';
 import Contact from './pages/Contact';
 import Header from './components/Header';
 import NewLetter from './components/NewLetter';
@@ -20,7 +20,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={Accueil} />
         <Route exact path="/service" component={Service} />
-        <Route exact path="/about" component={Apropos} />
+        <Route exact path="/about" component={Equipe} />
         <Route exact path="/contact" component={Contact} />
       </Switch>
     </Router>

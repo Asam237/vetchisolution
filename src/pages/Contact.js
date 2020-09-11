@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"
+import Banner from "../components/Banner";
 
 const Contact = props => {
 
@@ -11,6 +12,7 @@ const Contact = props => {
 
     return (
         <div className="site">
+            <Banner title="Nous contacter" />
             <div className="bg-white py-12">
                 <div className="container mx-auto px-8">
                     <h1 className="text-2xl py-5">CONTACTEZ NOUS</h1>

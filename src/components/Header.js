@@ -22,10 +22,10 @@ const Header = () => {
                         <div className="flex flex-col  md:flex-row items-start justify-center md:items-center">
                             <img className="h-24 w-auto mr-8" src={Logo} />
                             <div>
-                                <a href="/" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-60000 active:text-red-400 focus:outline-none text-gray-700 hover:font-bold font-medium">Accueil</a>
-                                <a href="/service" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-600 text-gray-700 hover:font-bold font-medium">Services</a>
-                                <a href="/about" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-600 text-gray-700 hover:font-bold font-medium">A propos</a>
-                                <a href="/contact" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-600 text-gray-700 hover:font-bold font-medium">Nous contacter</a>
+                                <a href="/" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-60000 active:text-red-400 focus:outline-none text-gray-700 hover:font-bold font-medium hover:underline">Accueil</a>
+                                <a href="/service" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-600 text-gray-700 hover:font-bold font-medium hover:underline">Services</a>
+                                <a href="/about" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-600 text-gray-700 hover:font-bold font-medium hover:underline">A propos</a>
+                                <a href="/contact" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-600 text-gray-700 hover:font-bold font-medium hover:underline">Nous contacter</a>
                             </div>
                         </div>
                         <div className="hidden md:inline-block">

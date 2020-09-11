@@ -2,7 +2,7 @@ import React, {useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"
 
-const Apropos = props => {
+const Equipe = props => {
 
     useEffect(() => {
         Aos.init({ duration: 1000 })
@@ -10,8 +10,8 @@ const Apropos = props => {
     }, [])
 
     return (
-        <p className="container mx-auto pt-16">Propos ICI !</p>
+        <p className="container mx-auto pt-16">Equipe ICI !</p>
     )
 }
 
-export default Apropos;
+export default Equipe;
