@@ -10,7 +10,7 @@ const Equipe = props => {
     }, [])
 
     return (
-        <p className="container mx-auto pt-16">Equipe ICI !</p>
+        <p className="container mx-auto pt-16"></p>
     )
 }
 
