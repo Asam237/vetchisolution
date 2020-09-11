@@ -15,7 +15,7 @@ const Contact = props => {
             <Banner title="Nous contacter" />
             <div className="bg-white py-12">
                 <div className="container mx-auto px-8">
-                    <h1 className="text-2xl py-5">CONTACTEZ NOUS</h1>
+                    <h1 className="text-3xlxl py-5">CONTACTEZ NOUS</h1>
                     <div className="flex flex-col md:flex-row">
                         <div className="flex flex-col">
                             <div className="flex flex-col md:flex-row">
