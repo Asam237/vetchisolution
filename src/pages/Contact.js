@@ -12,7 +12,7 @@ const Contact = props => {
 
     return (
         <div className="site">
-            <Banner title="Nous contacter" />
+            <Banner title="Nous Contacter" />
             <div className="bg-white py-12">
                 <div className="container mx-auto px-8">
                     <h1 className="text-3xlxl py-5">CONTACTEZ NOUS</h1>
