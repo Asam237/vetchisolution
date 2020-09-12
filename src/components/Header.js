@@ -1,8 +1,8 @@
 import React from "react";
-import "../styles/navbar.css"
+// import "../styles/navbar.css"
 import Logo from "../assets/pictures/0.png";
 import Drap from "../assets/pictures/fr.svg";
-import { myFunction } from "../js/navbar"
+// import { myFunction } from "../js/navbar"
 
 
 const Header = () => {
@@ -23,17 +23,23 @@ const Header = () => {
                 <div className="container px-8 mx-auto">
                     <div>
                         <div className="pt-2 pb-6 topnav flex items-center justify-between text-center" id="myTopnav">
-                            <div className="flex md:items-center flex-col items-start md:flex-row">
-                                <a href="/" ><img className="h-24 w-auto mr-8" src={Logo} /></a>
-                                <a href="/" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-60000 active:text-red-400 focus:outline-none text-gray-700 hover:font-bold font-medium hover:underline">Accueil</a>
-                                <a href="/service" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-600 text-gray-700 hover:font-bold font-medium hover:underline">Nos Services</a>
-                                <a href="/about" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-600 text-gray-700 hover:font-bold font-medium hover:underline">Notre Equipe</a>
-                                <a href="/contact" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-600 text-gray-700 hover:font-bold font-medium hover:underline">Nous contacter</a>
-                            </div>
                             <div>
+                                <div className="flex md:items-center text-left flex-col items-start md:flex-row">
+                                    <div>
+                                        <a href="/" ><img className="h-24 w-auto mr-8" src={Logo} /></a>
+                                    </div>
+                                    <div>
+                                        <a href="/" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-60000 active:text-red-400 focus:outline-none text-gray-700 hover:font-bold font-medium hover:underline">Accueil</a>
+                                        <a href="/service" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-600 text-gray-700 hover:font-bold font-medium hover:underline">Nos Services</a>
+                                        <a href="/about" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-600 text-gray-700 hover:font-bold font-medium hover:underline">Notre Equipe</a>
+                                        <a href="/contact" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-600 text-gray-700 hover:font-bold font-medium hover:underline">Nous contacter</a>
+                                    </div>
+                                </div>
+                                {/* <div>
                                 <a href="javascript:vo id(0);" className="icon" onClick={myFunction}>
                                     <i className="fa fa-bars"></i>
                                 </a>
+                            </div> */}
                             </div>
                         </div>
                     </div>
