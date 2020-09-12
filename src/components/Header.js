@@ -1,6 +1,9 @@
 import React from "react";
+import "../styles/navbar.css"
 import Logo from "../assets/pictures/0.png";
 import Drap from "../assets/pictures/fr.svg";
+import { myFunction } from "../js/navbar"
+
 
 const Header = () => {
     return (
@@ -18,8 +21,8 @@ const Header = () => {
             </div>
             <div className="bg-white shadow-xl">
                 <div className="container px-8 mx-auto">
-                    <div className="flex py-6 items-center  justify-between">
-                        <div className="flex flex-col  md:flex-row items-start justify-center md:items-center">
+                    <div className="py-6 flex justify-between items-center topnav" id="myTopnav">
+                        <div className="flex flex-col  md:flex-row items-start justify-center md:items-center md:justify-start">
                             <img className="h-24 w-auto mr-8" src={Logo} />
                             <div>
                                 <a href="/" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-60000 active:text-red-400 focus:outline-none text-gray-700 hover:font-bold font-medium hover:underline">Accueil</a>
@@ -28,8 +31,10 @@ const Header = () => {
                                 <a href="/contact" style={{ fontSize: '15px', color: '#252F3F' }} className="mr-4 hover:text-red-600 text-gray-700 hover:font-bold font-medium hover:underline">Nous contacter</a>
                             </div>
                         </div>
-                        <div className="hidden md:inline-block">
-                            {/* <p>Second partie du header</p> */}
+                        <div>
+                            <a href="javascript:void(0);" className="icon" onClick={myFunction}>
+                                <i className="fa fa-bars"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
