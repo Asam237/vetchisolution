@@ -11,7 +11,7 @@ const Equipe = props => {
 
     useEffect(() => {
         Aos.init({ duration: 1000 })
-        document.title = "Vetchi Solution  |  A propos"
+        document.title = "Vetchi Solution  |  Equipes"
     }, [])
 
     return (
