@@ -8,7 +8,7 @@ import { myFunction } from "../js/navbar"
 const Header = () => {
     return (
         <header>
-            <div className="site__header bg-white mb-4" style={{ borderBottomWidth: '0.5px' }}>
+            <div className="site__header bg-white" style={{ borderBottomWidth: '0.5px' }}>
                 <div className="container mx-auto px-8">
                     <div className="site__header__langues flex items-center justify-between py-2">
                         <a href="#" className="mr-4 text-xs md:text-md flex justify-center items-center" ><span><img className="h-5 rounded-full mr-2" src={Drap} /></span>Français (FR)</a>
