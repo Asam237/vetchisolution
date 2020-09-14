@@ -46,20 +46,18 @@ const Header = () => {
                 {/* </div> */}
                 {/* </div> */}
                 {/* </div> */}
-                <div className="border-b border-gray-200">
 
-                    <div className="container mx-auto px-8">
-                        <div className="pt-4 md:pt-6 pb-3">
-                            <div className="topnav" id="myTopnav">
-                                {/* <a href="/" className="active"><img className="w-12 h-auto" src={Logo}/></a> */}
-                                <a href="/" className="active">ACCUEIL</a>
-                                <a href="/service">NOS SERVICES</a>
-                                <a href="/about">NOTRE EQUIPE</a>
-                                <a href="/contact">NOUS CONTACTER</a>
-                                <a href="javascript:void(0);" className="icon" onClick={myFunction}>
-                                    <i class="fa fa-bars"></i>
-                                </a>
-                            </div>
+                <div className="container mx-auto px-8">
+                    <div className="pt-4 md:pt-6 pb-3">
+                        <div className="topnav" id="myTopnav">
+                            {/* <a href="/" className="active"><img className="w-12 h-auto" src={Logo}/></a> */}
+                            <a href="/" className="active">ACCUEIL</a>
+                            <a href="/service">NOS SERVICES</a>
+                            <a href="/about">NOTRE EQUIPE</a>
+                            <a href="/contact">NOUS CONTACTER</a>
+                            <a href="javascript:void(0);" className="icon" onClick={myFunction}>
+                                <i class="fa fa-bars"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
