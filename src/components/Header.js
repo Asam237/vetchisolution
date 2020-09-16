@@ -5,6 +5,8 @@ import Drap from "../assets/pictures/fr.svg";
 import { myFunction } from "../js/navbar"
 
 
+
+
 const Header = () => {
     return (
         <header>
@@ -65,6 +67,5 @@ const Header = () => {
         </header>
     )
 }
-
 
 export default Header;

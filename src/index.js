@@ -12,6 +12,7 @@ import Contact from './pages/Contact';
 import Header from './components/Header';
 import NewLetter from './components/NewLetter';
 import Footer from './components/Footer';
+import Login from './pages/login';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +23,7 @@ ReactDOM.render(
         <Route exact path="/service" component={Service} />
         <Route exact path="/about" component={Equipe} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/admin" component={Login} />
       </Switch>
     </Router>
     <NewLetter />
