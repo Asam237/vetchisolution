@@ -8,7 +8,7 @@ class IndexAdmin extends Component {
     render() {
 
         const displayPost = (
-            <Tabs defaultIndex={1} onSelect={index => console.log(index)}>
+            <Tabs defaultIndex={0} onSelect={index => console.log(index)}>
                 <TabList>
                     <Tab><span className="text-xs font-black">ACCUEIL</span></Tab>
                     <Tab><span className="text-xs font-black">EQUIPES</span></Tab>
