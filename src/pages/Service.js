@@ -4,6 +4,7 @@ import "aos/dist/aos.css"
 import Product01 from "../components/Product01";
 import Product02 from "../components/Product02";
 import Banner from "../components/Banner";
+import Header from "../components/Header";
 
 const Service = props => {
     useEffect(() => {
@@ -14,6 +15,7 @@ const Service = props => {
 
     return (
         <div className="site">
+            <Header />
             <Banner title="Nos services" />
             <Product01 />
             <Product02 />

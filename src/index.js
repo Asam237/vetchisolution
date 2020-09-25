@@ -13,17 +13,18 @@ import Header from './components/Header';
 import NewLetter from './components/NewLetter';
 import Footer from './components/Footer';
 import Login from './pages/login';
+import IndexAdmin from './pages/admins';
+import AccueilAdmin from './pages/admins/InputAdmin';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <Header />
       <Switch>
         <Route exact path="/" component={Accueil} />
         <Route exact path="/service" component={Service} />
         <Route exact path="/about" component={Equipe} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/admin" component={Login} />
+        <Route exact path="/admin" component={IndexAdmin} />
       </Switch>
     </Router>
     <NewLetter />

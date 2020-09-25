@@ -6,6 +6,7 @@ import Body from "../assets/pictures/body.png";
 import Instagram from "../assets/pictures/instagram.svg";
 import Linkedin from "../assets/pictures/linkedin.svg";
 import Twitter from "../assets/pictures/twitter.svg";
+import Header from "../components/Header";
 
 const Equipe = props => {
 
@@ -16,6 +17,7 @@ const Equipe = props => {
 
     return (
         <div className="site">
+            <Header />
             <Banner title="Notre Equipe" />
             <div className="container mx-auto px-8">
                 <div className="flex pt-16">

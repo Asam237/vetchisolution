@@ -13,6 +13,7 @@ const Accueil = () => {
     }, [])
     return (
         <div className="site">
+            <Header />
             <Intro title="Qui Sommes Nous ?" subtitle="Un groupe de jeunes professionnels passionnés par l'univers des TIC, une equipe de developpeurs complementaires pour vous servir, un menu d'expertise pour vos metiers d'entreprise et vos visions strategiques , nous sommes un ensemble de professionnels des systèmes d'informations. Nous sommes un cabinet de prestation de services, de conseil et formations en ingenierie des systemes d'informations. Ces services se detaillent sur 6 grands axes tels que presentés." />
             <Serv />
             <div className="container mx-auto pt-20">

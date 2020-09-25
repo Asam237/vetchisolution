@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"
 import Banner from "../components/Banner";
+import Header from "../components/Header";
 
 const Contact = props => {
 
@@ -12,6 +13,7 @@ const Contact = props => {
 
     return (
         <div className="site">
+            <Header />
             <Banner title="Nous Contacter" />
             <div className="bg-white py-12">
                 <div className="container mx-auto px-8">
