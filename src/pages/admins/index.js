@@ -1,12 +1,16 @@
-import React, { Component } from "react";
+import React, { useEffect, Component } from "react";
 import { Tabs, Tab, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css"
 import HeaderAdmin from "./HeaderAdmin";
 import MenuAdmin from "./MenuAdmin";
 
 class IndexAdmin extends Component {
-    render() {
 
+    componentDidMount() {
+        document.title = "Vetchi Solution  |  Admin"
+    }
+
+    render() {
         const displayPost = (
             <Tabs defaultIndex={0} onSelect={index => console.log(index)}>
                 <TabList>
